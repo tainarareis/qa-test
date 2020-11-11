@@ -4,6 +4,11 @@ O objetivo deste repositório é disponibilizar o desafio visando atuar como QA 
 
 ## Ferramentas utilizadas
 
+- pq cypress
+- pq app actions
+- como instalar o cypress
+- como rodar os testes
+- video mostrando os testes
 
 ## Cenários de teste
 Foi utilizado o site https://opentdb.com/ para realizar os testes
@@ -24,7 +29,7 @@ Foi automatizado em:
 
 **Funcionalidade:** Busca no Banco de Questões<br>
 **Cenário:** Busca por **categoria** existente<br>
-**Dado** que navego para a página de busca do banco de **categorias**<br>
+**Dado** que navego para a página de busca do banco de categorias<br>
 **E** digito 'Science: Computers' no campo de busca<br>
 **Quando** clico no botão de buscar<br>
 **Então** visualizo uma lista com 25 questões da categoria 'Science: Computers'<br>
@@ -33,7 +38,7 @@ Foi automatizado em:
 Foi automatizado em: 
 
 
-### Terceira parte
+### Cenário 3
 
 **Funcionalidade:** Ordenar lista de questões<br>
 **Cenário:** Ordernação crescente da lista de questões por id<br>
